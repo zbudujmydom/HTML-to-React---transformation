@@ -1,6 +1,6 @@
 import React from "react";
 import Box from "./Box";
-import "./Offers.css";
+import styles from "./Offers.module.css";
 import BoxHeading from "./BoxHeading";
 
 const Offer = () => {
@@ -14,10 +14,10 @@ const Offer = () => {
   ];
 
   return (
-    <section id="offer" className="offer">
-      <div className="main-container">
+    <section id="offer" className={styles.offer}>
+      <div className={styles.mainContainer}>
         <BoxHeading text="Czym zajmuję się nasza firma?" />
-        <div className="offer-boxes">
+        <div className={styles.offerBoxes}>
           {boxes.map((box) => (
             <Box key={box.id} isNew={box.isNew} />
           ))}
