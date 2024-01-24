@@ -1,4 +1,4 @@
-.offer .main-container {
+.mainContainer {
     width: 100%;
 }
 
@@ -10,7 +10,7 @@
     text-align: center;
 }
 
-.offer-boxes {
+.offerBoxes {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
