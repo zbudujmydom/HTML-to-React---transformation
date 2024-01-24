@@ -1,0 +1,19 @@
+.offer .main-container {
+    width: 100%;
+}
+
+.offer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #405D78;
+    justify-content: center;
+    text-align: center;
+}
+
+.offer-boxes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 24px;
+}

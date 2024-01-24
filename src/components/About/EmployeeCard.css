@@ -1,0 +1,17 @@
+.employee {
+    width: 400px;
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.employee-name {
+    width: 400px;
+    padding-top: 20px;
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    line-height: 21px;
+}

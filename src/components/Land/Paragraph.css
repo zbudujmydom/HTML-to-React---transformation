@@ -1,0 +1,28 @@
+.main-container {
+    width: 92%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.landing-text {
+    width: 359px;
+    font-size: 18px;
+    margin-bottom: 35px;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 442px) {
+    .main-container {
+        width: 92%;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 0 auto;
+    }
+
+    .landing-text {
+        font-size: 18px;
+        margin-bottom: 35px;
+        z-index: 1;
+        font-weight: bold;
+    }
+}

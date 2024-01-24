@@ -1,0 +1,39 @@
+ .main-container {
+     width: 92%;
+     margin: 0 auto;
+     padding: 15px;
+ }
+
+ .landing-page {
+     background-image: url(/public/assets/background-sea.jpg);
+     background-size: cover;
+     background-position: center;
+     width: auto;
+     height: 574px;
+     color: #FFFFFF;
+     position: relative;
+ }
+
+ .landing-overlay {
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background: rgba(0, 0, 0, 0.5);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: left;
+     padding-left: 30px;
+ }
+
+ @media only screen and (min-width: 442px) {
+
+     .main-container {
+         width: 92%;
+         padding-left: 30px;
+         padding-right: 30px;
+         margin: 0 auto;
+     }
+ }
